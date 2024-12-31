@@ -3,7 +3,7 @@ Performing the shortest path using Bellman Ford algorithim to compute the distan
 
 _Requirements:_
 
-(1) Find the shortest path from each node to the node 24. Consider the l1 norm to compute the distances between nodes (l1(x − y) = ∑4i=1 |xi − yi|where x and y have 4 dimensions)
+(1) Find the shortest path from each node to the node 24th. Consider the l1 norm to compute the distances between nodes (l1(x − y) = ∑4i=1 |xi − yi|where x and y have 4 dimensions)
 
 (2) Find the shortest path from node  0 to each node. Consider the l∞ norm to compute the distances between nodes (l∞(x − y) = maxi=1,...,4[|xi − yi|] where x and y have 4 dimensions).
 
@@ -17,6 +17,6 @@ Using numpy random seed to genrate the data frame that contain 25 nodes and 4 di
 ## Visual network design 
 
 ## Algorithm implemented
-
+Bellman Ford only requires Numpy package to solve. The algorithm set the distance to source vertex as 0 and to all other vertices as infinity.
 
 ## Results visualized
