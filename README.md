@@ -25,10 +25,12 @@ In Python, Bellman Ford only requires Numpy package to solve. The l1_distances a
 	•	  Lmax Distance: Maximum absolute difference across dimensions.
 	
  1. Bellman-Ford Algorithm:
+    
     	•	  Iteratively updates the shortest path costs from a source node to other nodes.
 	•	  Tracks the arcs (edges) used to achieve the minimum cost for each node.
 	
  3. Path Reconstruction:
+    
     	•	  Tracks the arcs used for minimum cost.
 	•	  After determining the shortest paths, reconstructs and prints the shortest path for each node.
 
