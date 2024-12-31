@@ -15,6 +15,7 @@ End result is the optimal shortest path between any two nodes - minimizing total
 Using numpy random seed to genrate the data frame that contain 25 nodes and 4 dimemsions. Each node randomly coordinates from 0 to 50.
 
 ## Visual network design 
+![image](https://github.com/user-attachments/assets/76b03328-36e3-4874-9369-95f029021460)
 
 ## Algorithm implemented
 In Python, Bellman Ford only requires Numpy package to solve.
