@@ -17,22 +17,22 @@ Using numpy random seed to genrate the data frame that contain 25 nodes and 4 di
 ## Visual network design 
 
 ## Algorithm implemented
-In Python, Bellman Ford only requires Numpy package to solve. 
-1. The algorithm set the distance to source node as 0 and to all other nodes as infinity.
-2. For each edge, if the distance to the source node + edge weight is less than the current distance of the destination node -> Update the distance of the destination node. Iterates N-1 times in which N is the number of nodes.
-3. After N-1 iterations, check all edges
+In Python, Bellman Ford only requires Numpy package to solve.
 
-1.	Input Generation:
+1. Input Generation:
 	•	Randomly generates coordinates for 25 nodes in a 4-dimensional space.
 	•	Calculates shipping costs and two types of distances between nodes:
 	•	  L1 Distance: Sum of absolute differences in each dimension.
 	•	  Lmax Distance: Maximum absolute difference across dimensions.
-	2.	Cost Matrix:
+	
+ 2. Cost Matrix:
 	•	Combines shipping costs with either L1 or Lmax distances to form a graph’s weight matrix.
-	3.	Bellman-Ford Algorithm:
+	
+ 3. Bellman-Ford Algorithm:
 	•	Iteratively updates the shortest path costs from a source node to other nodes.
 	•	Tracks the arcs (edges) used to achieve the minimum cost for each node.
-	4.	Path Reconstruction:
+	
+ 4. Path Reconstruction:
 	•	After determining the shortest paths, reconstructs and prints the paths between nodes.
 
 ## Results visualized
