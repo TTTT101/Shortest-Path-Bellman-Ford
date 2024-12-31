@@ -36,5 +36,3 @@ In Python, Bellman Ford only requires Numpy package to solve. The l1_distances a
     •	  Tracks the arcs used for minimum cost.
     
     •	  After determining the shortest paths, reconstructs and prints the shortest path for each node.
-
-## Results visualized
