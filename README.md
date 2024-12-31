@@ -17,6 +17,9 @@ Using numpy random seed to genrate the data frame that contain 25 nodes and 4 di
 ## Visual network design 
 
 ## Algorithm implemented
-Bellman Ford only requires Numpy package to solve. The algorithm set the distance to source vertex as 0 and to all other vertices as infinity.
+In Python, Bellman Ford only requires Numpy package to solve. 
+1. The algorithm set the distance to source node as 0 and to all other nodes as infinity.
+2. For each edge, if the distance to the source node + edge weight is less than the current distance of the destination node -> Update the distance of the destination node. Iterates N-1 times in which N is the number of nodes.
+3. After N-1 iterations, check all edges
 
 ## Results visualized
