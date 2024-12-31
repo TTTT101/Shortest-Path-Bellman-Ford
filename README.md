@@ -18,11 +18,8 @@ Using numpy random seed to genrate the data frame that contain 25 nodes and 4 di
 ![image](https://github.com/user-attachments/assets/76b03328-36e3-4874-9369-95f029021460)
 
 ## Algorithm implemented
-In Python, Bellman Ford only requires Numpy package to solve.
+In Python, Bellman Ford only requires Numpy package to solve. The l1_distances and lmax_distances matrices are calculated based on differences between coordinates.
 
-1. Input Generation:
-	•	Randomly generates coordinates for 25 nodes in a 4-dimensional space.
-	•	Calculates shipping costs and two types of distances between nodes:
 	•	  L1 Distance: Sum of absolute differences in each dimension.
 	•	  Lmax Distance: Maximum absolute difference across dimensions.
 	
@@ -34,6 +31,7 @@ In Python, Bellman Ford only requires Numpy package to solve.
 	•	Tracks the arcs (edges) used to achieve the minimum cost for each node.
 	
  4. Path Reconstruction:
-	•	After determining the shortest paths, reconstructs and prints the paths between nodes.
+	•
+After determining the shortest paths, reconstructs and prints the paths between nodes.
 
 ## Results visualized
