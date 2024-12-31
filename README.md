@@ -21,17 +21,19 @@ Using numpy random seed to genrate the data frame that contain 25 nodes and 4 di
 
 In Python, Bellman Ford only requires Numpy package to solve. The l1_distances and lmax_distances matrices are calculated based on differences between coordinates. And the Cost Matrix combines shipping costs with either L1 or Lmax distances to form a graph’s weight matrix.
 
-	•	  L1 Distance: Sum of absolute differences in each dimension.
-	•	  Lmax Distance: Maximum absolute difference across dimensions.
+•	  L1 Distance: Sum of absolute differences in each dimension.
+•	  Lmax Distance: Maximum absolute difference across dimensions.
 	
  1. Bellman-Ford Algorithm:
     
     	•	  Iteratively updates the shortest path costs from a source node to other nodes.
+    
 	•	  Tracks the arcs (edges) used to achieve the minimum cost for each node.
 	
  3. Path Reconstruction:
     
     	•	  Tracks the arcs used for minimum cost.
+    
 	•	  After determining the shortest paths, reconstructs and prints the shortest path for each node.
 
 ## Results visualized
